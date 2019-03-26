@@ -1,0 +1,408 @@
+Loading data from: ../data/train_set.csv
+2019-03-26 14:48:28,349 app   : data.py[line:23] INFO Loading data from: ../data/train_set.csv
+(25317, 18)
+2019-03-26 14:48:28,413 app   : data.py[line:27] INFO (25317, 18)
+Columns: 
+Index(['ID', 'age', 'job', 'marital', 'education', 'default', 'balance',
+       'housing', 'loan', 'contact', 'day', 'month', 'duration', 'campaign',
+       'pdays', 'previous', 'poutcome', 'y'],
+      dtype='object')
+2019-03-26 14:48:28,413 app   : data.py[line:45] INFO Columns: 
+Index(['ID', 'age', 'job', 'marital', 'education', 'default', 'balance',
+       'housing', 'loan', 'contact', 'day', 'month', 'duration', 'campaign',
+       'pdays', 'previous', 'poutcome', 'y'],
+      dtype='object')
+
+    ID  age         job   marital ... pdays previous  poutcome  y
+0   1   43  management   married ...    -1        0   unknown  0
+1   2   42  technician  divorced ...   251        2     other  0
+
+[2 rows x 18 columns]
+2019-03-26 14:48:28,414 app   : data.py[line:61] INFO 
+    ID  age         job   marital ... pdays previous  poutcome  y
+0   1   43  management   married ...    -1        0   unknown  0
+1   2   42  technician  divorced ...   251        2     other  0
+
+[2 rows x 18 columns]
+Use time: 0.11005806922912598
+2019-03-26 14:48:28,459 app   : data.py[line:73] INFO Use time: 0.11005806922912598
+Object saved in: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+2019-03-26 14:48:28,465 app   : comm.py[line:114] INFO Object saved in: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+Loading data from: ../data/test_set.csv
+2019-03-26 14:48:44,990 app   : data.py[line:23] INFO Loading data from: ../data/test_set.csv
+(10852, 17)
+2019-03-26 14:48:45,011 app   : data.py[line:27] INFO (10852, 17)
+Columns: 
+Index(['ID', 'age', 'job', 'marital', 'education', 'default', 'balance',
+       'housing', 'loan', 'contact', 'day', 'month', 'duration', 'campaign',
+       'pdays', 'previous', 'poutcome'],
+      dtype='object')
+2019-03-26 14:48:45,012 app   : data.py[line:45] INFO Columns: 
+Index(['ID', 'age', 'job', 'marital', 'education', 'default', 'balance',
+       'housing', 'loan', 'contact', 'day', 'month', 'duration', 'campaign',
+       'pdays', 'previous', 'poutcome'],
+      dtype='object')
+
+       ID  age         job  marital   ...    campaign pdays  previous poutcome
+0  25318   51   housemaid  married   ...           3    -1         0  unknown
+1  25319   32  management  married   ...           2    -1         0  unknown
+
+[2 rows x 17 columns]
+2019-03-26 14:48:45,013 app   : data.py[line:61] INFO 
+       ID  age         job  marital   ...    campaign pdays  previous poutcome
+0  25318   51   housemaid  married   ...           3    -1         0  unknown
+1  25319   32  management  married   ...           2    -1         0  unknown
+
+[2 rows x 17 columns]
+Use time: 0.06458473205566406
+2019-03-26 14:48:45,055 app   : data.py[line:79] INFO Use time: 0.06458473205566406
+Object saved in: /home/greed/workspace/backup/kesci_bank/resource/test_df_data.pkl
+2019-03-26 14:48:45,058 app   : comm.py[line:114] INFO Object saved in: /home/greed/workspace/backup/kesci_bank/resource/test_df_data.pkl
+Loading data from: ../data/train_set.csv
+2019-03-26 14:49:06,865 app   : data.py[line:23] INFO Loading data from: ../data/train_set.csv
+(25317, 18)
+2019-03-26 14:49:06,904 app   : data.py[line:27] INFO (25317, 18)
+Columns: 
+Index(['ID', 'age', 'job', 'marital', 'education', 'default', 'balance',
+       'housing', 'loan', 'contact', 'day', 'month', 'duration', 'campaign',
+       'pdays', 'previous', 'poutcome', 'y'],
+      dtype='object')
+2019-03-26 14:49:06,904 app   : data.py[line:45] INFO Columns: 
+Index(['ID', 'age', 'job', 'marital', 'education', 'default', 'balance',
+       'housing', 'loan', 'contact', 'day', 'month', 'duration', 'campaign',
+       'pdays', 'previous', 'poutcome', 'y'],
+      dtype='object')
+
+    ID  age         job   marital ... pdays previous  poutcome  y
+0   1   43  management   married ...    -1        0   unknown  0
+1   2   42  technician  divorced ...   251        2     other  0
+
+[2 rows x 18 columns]
+2019-03-26 14:49:06,905 app   : data.py[line:61] INFO 
+    ID  age         job   marital ... pdays previous  poutcome  y
+0   1   43  management   married ...    -1        0   unknown  0
+1   2   42  technician  divorced ...   251        2     other  0
+
+[2 rows x 18 columns]
+Use time: 0.08582115173339844
+2019-03-26 14:49:06,951 app   : data.py[line:73] INFO Use time: 0.08582115173339844
+Object saved in: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+2019-03-26 14:49:06,958 app   : comm.py[line:114] INFO Object saved in: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+{'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+2019-03-26 14:49:21,515 app   : str_utils.py[line:19] INFO {'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/test_df_data.pkl
+2019-03-26 14:49:21,518 app   : comm.py[line:126] INFO Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/test_df_data.pkl
+Object saved in: /home/greed/workspace/backup/kesci_bank/resource/.test.features.20190308.pkl
+2019-03-26 14:49:21,523 app   : comm.py[line:114] INFO Object saved in: /home/greed/workspace/backup/kesci_bank/resource/.test.features.20190308.pkl
+{'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+2019-03-26 14:49:42,453 app   : str_utils.py[line:19] INFO {'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+2019-03-26 14:49:42,459 app   : comm.py[line:126] INFO Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+Object saved in: /home/greed/workspace/backup/kesci_bank/resource/.train.features.20190308.pkl
+2019-03-26 14:49:42,467 app   : comm.py[line:114] INFO Object saved in: /home/greed/workspace/backup/kesci_bank/resource/.train.features.20190308.pkl
+{'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+2019-03-26 14:50:31,355 app   : str_utils.py[line:19] INFO {'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+2019-03-26 14:50:31,360 app   : comm.py[line:126] INFO Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+Object saved in: /home/greed/workspace/backup/kesci_bank/resource/job.features.pkl
+2019-03-26 14:50:41,687 app   : comm.py[line:114] INFO Object saved in: /home/greed/workspace/backup/kesci_bank/resource/job.features.pkl
+{'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+2019-03-26 14:51:06,701 app   : str_utils.py[line:19] INFO {'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+2019-03-26 14:51:06,707 app   : comm.py[line:126] INFO Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/train_df_data.pkl
+
+   ID  age        ...         poutcome_success  poutcome_unknown
+0   1   43        ...                        0                 1
+1   2   42        ...                        0                 0
+2   3   47        ...                        0                 1
+3   4   28        ...                        0                 1
+4   5   42        ...                        0                 1
+
+[5 rows x 48 columns]
+2019-03-26 14:51:13,718 app   : train.py[line:190] INFO 
+   ID  age        ...         poutcome_success  poutcome_unknown
+0   1   43        ...                        0                 1
+1   2   42        ...                        0                 0
+2   3   47        ...                        0                 1
+3   4   28        ...                        0                 1
+4   5   42        ...                        0                 1
+
+[5 rows x 48 columns]
+Index(['ID', 'age', 'balance', 'day', 'duration', 'default_bool',
+       'housing_bool', 'loan_bool', 'campaign_cleaned', 'previous_cleaned',
+       'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid',
+       'job_management', 'job_retired', 'job_self-employed', 'job_services',
+       'job_student', 'job_technician', 'job_unemployed', 'job_unknown',
+       'marital_divorced', 'marital_married', 'marital_single',
+       'education_primary', 'education_secondary', 'education_tertiary',
+       'education_unknown', 'contact_cellular', 'contact_telephone',
+       'contact_unknown', 'month_apr', 'month_aug', 'month_dec', 'month_feb',
+       'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may',
+       'month_nov', 'month_oct', 'month_sep', 'poutcome_failure',
+       'poutcome_other', 'poutcome_success', 'poutcome_unknown'],
+      dtype='object')
+2019-03-26 14:51:13,718 app   : train.py[line:191] INFO Index(['ID', 'age', 'balance', 'day', 'duration', 'default_bool',
+       'housing_bool', 'loan_bool', 'campaign_cleaned', 'previous_cleaned',
+       'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid',
+       'job_management', 'job_retired', 'job_self-employed', 'job_services',
+       'job_student', 'job_technician', 'job_unemployed', 'job_unknown',
+       'marital_divorced', 'marital_married', 'marital_single',
+       'education_primary', 'education_secondary', 'education_tertiary',
+       'education_unknown', 'contact_cellular', 'contact_telephone',
+       'contact_unknown', 'month_apr', 'month_aug', 'month_dec', 'month_feb',
+       'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may',
+       'month_nov', 'month_oct', 'month_sep', 'poutcome_failure',
+       'poutcome_other', 'poutcome_success', 'poutcome_unknown'],
+      dtype='object')
+RangeIndex(start=0, stop=25317, step=1)
+2019-03-26 14:51:13,719 app   : train.py[line:192] INFO RangeIndex(start=0, stop=25317, step=1)
+
+    age  balance        ...         poutcome_unknown  previous_cleaned
+0   43      291        ...                        1               0.0
+1   42     5076        ...                        0               2.0
+2   47      104        ...                        1               0.0
+3   28     -994        ...                        1               0.0
+4   42     2974        ...                        1               0.0
+
+[5 rows x 47 columns]
+2019-03-26 14:51:13,756 app   : train.py[line:248] INFO 
+    age  balance        ...         poutcome_unknown  previous_cleaned
+0   43      291        ...                        1               0.0
+1   42     5076        ...                        0               2.0
+2   47      104        ...                        1               0.0
+3   28     -994        ...                        1               0.0
+4   42     2974        ...                        1               0.0
+
+[5 rows x 47 columns]
+columns: ['age', 'balance', 'campaign_cleaned', 'contact_cellular', 'contact_telephone', 'contact_unknown', 'day', 'default_bool', 'duration', 'education_primary', 'education_secondary', 'education_tertiary', 'education_unknown', 'housing_bool', 'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid', 'job_management', 'job_retired', 'job_self-employed', 'job_services', 'job_student', 'job_technician', 'job_unemployed', 'job_unknown', 'loan_bool', 'marital_divorced', 'marital_married', 'marital_single', 'month_apr', 'month_aug', 'month_dec', 'month_feb', 'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may', 'month_nov', 'month_oct', 'month_sep', 'poutcome_failure', 'poutcome_other', 'poutcome_success', 'poutcome_unknown', 'previous_cleaned']
+2019-03-26 14:51:13,756 app   : train.py[line:249] INFO columns: ['age', 'balance', 'campaign_cleaned', 'contact_cellular', 'contact_telephone', 'contact_unknown', 'day', 'default_bool', 'duration', 'education_primary', 'education_secondary', 'education_tertiary', 'education_unknown', 'housing_bool', 'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid', 'job_management', 'job_retired', 'job_self-employed', 'job_services', 'job_student', 'job_technician', 'job_unemployed', 'job_unknown', 'loan_bool', 'marital_divorced', 'marital_married', 'marital_single', 'month_apr', 'month_aug', 'month_dec', 'month_feb', 'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may', 'month_nov', 'month_oct', 'month_sep', 'poutcome_failure', 'poutcome_other', 'poutcome_success', 'poutcome_unknown', 'previous_cleaned']
+y stat: Counter({0: 22356, 1: 2961})
+2019-03-26 14:51:13,762 app   : train.py[line:258] INFO y stat: Counter({0: 22356, 1: 2961})
+Folder 1
+2019-03-26 14:51:13,763 app   : train.py[line:283] INFO Folder 1
+AUC Score (Train): 0.990865
+2019-03-26 14:52:01,219 app   : train.py[line:319] INFO AUC Score (Train): 0.990865
+AUC Score (Test): 0.933497
+2019-03-26 14:52:02,888 app   : train.py[line:322] INFO AUC Score (Test): 0.933497
+0 result p: 0.9101 r: 0.9831 f 0.9452 / 1 result p: 0.7232 r: 0.3126 f 0.4365
+2019-03-26 14:52:02,894 app   : report.py[line:68] INFO 0 result p: 0.9101 r: 0.9831 f 0.9452 / 1 result p: 0.7232 r: 0.3126 f 0.4365
+auc: 0.9335
+2019-03-26 14:52:02,895 app   : train.py[line:330] INFO auc: 0.9335
+Folder 2
+2019-03-26 14:52:02,895 app   : train.py[line:283] INFO Folder 2
+AUC Score (Train): 0.990197
+2019-03-26 14:52:52,206 app   : train.py[line:319] INFO AUC Score (Train): 0.990197
+AUC Score (Test): 0.935930
+2019-03-26 14:52:53,937 app   : train.py[line:322] INFO AUC Score (Test): 0.935930
+0 result p: 0.9192 r: 0.9825 f 0.9498 / 1 result p: 0.7292 r: 0.3523 f 0.4751
+2019-03-26 14:52:53,943 app   : report.py[line:68] INFO 0 result p: 0.9192 r: 0.9825 f 0.9498 / 1 result p: 0.7292 r: 0.3523 f 0.4751
+auc: 0.9359
+2019-03-26 14:52:53,944 app   : train.py[line:330] INFO auc: 0.9359
+Folder 3
+2019-03-26 14:52:53,944 app   : train.py[line:283] INFO Folder 3
+AUC Score (Train): 0.990335
+2019-03-26 14:53:40,780 app   : train.py[line:319] INFO AUC Score (Train): 0.990335
+AUC Score (Test): 0.931516
+2019-03-26 14:53:42,399 app   : train.py[line:322] INFO AUC Score (Test): 0.931516
+0 result p: 0.9234 r: 0.9767 f 0.9493 / 1 result p: 0.6512 r: 0.3494 f 0.4548
+2019-03-26 14:53:42,405 app   : report.py[line:68] INFO 0 result p: 0.9234 r: 0.9767 f 0.9493 / 1 result p: 0.6512 r: 0.3494 f 0.4548
+Folder 4
+2019-03-26 14:53:42,406 app   : train.py[line:283] INFO Folder 4
+AUC Score (Train): 0.990358
+2019-03-26 14:54:29,581 app   : train.py[line:319] INFO AUC Score (Train): 0.990358
+AUC Score (Test): 0.935563
+2019-03-26 14:54:31,216 app   : train.py[line:322] INFO AUC Score (Test): 0.935563
+0 result p: 0.9242 r: 0.9784 f 0.9506 / 1 result p: 0.6767 r: 0.3599 f 0.4699
+2019-03-26 14:54:31,223 app   : report.py[line:68] INFO 0 result p: 0.9242 r: 0.9784 f 0.9506 / 1 result p: 0.6767 r: 0.3599 f 0.4699
+Folder 5
+2019-03-26 14:54:31,223 app   : train.py[line:283] INFO Folder 5
+AUC Score (Train): 0.990509
+2019-03-26 14:55:18,215 app   : train.py[line:319] INFO AUC Score (Train): 0.990509
+AUC Score (Test): 0.938595
+2019-03-26 14:55:19,839 app   : train.py[line:322] INFO AUC Score (Test): 0.938595
+0 result p: 0.9191 r: 0.9819 f 0.9495 / 1 result p: 0.7226 r: 0.3534 f 0.4747
+2019-03-26 14:55:19,845 app   : report.py[line:68] INFO 0 result p: 0.9191 r: 0.9819 f 0.9495 / 1 result p: 0.7226 r: 0.3534 f 0.4747
+auc: 0.9386
+2019-03-26 14:55:19,846 app   : train.py[line:330] INFO auc: 0.9386
+Folder 6
+2019-03-26 14:55:19,846 app   : train.py[line:283] INFO Folder 6
+AUC Score (Train): 0.990693
+2019-03-26 14:56:07,297 app   : train.py[line:319] INFO AUC Score (Train): 0.990693
+AUC Score (Test): 0.930389
+2019-03-26 14:56:08,959 app   : train.py[line:322] INFO AUC Score (Test): 0.930389
+0 result p: 0.9207 r: 0.9793 f 0.9491 / 1 result p: 0.6748 r: 0.3374 f 0.4499
+2019-03-26 14:56:08,965 app   : report.py[line:68] INFO 0 result p: 0.9207 r: 0.9793 f 0.9491 / 1 result p: 0.6748 r: 0.3374 f 0.4499
+Folder 7
+2019-03-26 14:56:08,966 app   : train.py[line:283] INFO Folder 7
+AUC Score (Train): 0.990179
+2019-03-26 14:56:56,063 app   : train.py[line:319] INFO AUC Score (Train): 0.990179
+AUC Score (Test): 0.936275
+2019-03-26 14:56:57,730 app   : train.py[line:322] INFO AUC Score (Test): 0.936275
+0 result p: 0.9152 r: 0.9840 f 0.9484 / 1 result p: 0.7526 r: 0.3478 f 0.4758
+2019-03-26 14:56:57,736 app   : report.py[line:68] INFO 0 result p: 0.9152 r: 0.9840 f 0.9484 / 1 result p: 0.7526 r: 0.3478 f 0.4758
+Folder 8
+2019-03-26 14:56:57,737 app   : train.py[line:283] INFO Folder 8
+AUC Score (Train): 0.990425
+2019-03-26 14:57:45,776 app   : train.py[line:319] INFO AUC Score (Train): 0.990425
+AUC Score (Test): 0.937260
+2019-03-26 14:57:47,417 app   : train.py[line:322] INFO AUC Score (Test): 0.937260
+0 result p: 0.9176 r: 0.9814 f 0.9484 / 1 result p: 0.7196 r: 0.3515 f 0.4723
+2019-03-26 14:57:47,424 app   : report.py[line:68] INFO 0 result p: 0.9176 r: 0.9814 f 0.9484 / 1 result p: 0.7196 r: 0.3515 f 0.4723
+Folder 9
+2019-03-26 14:57:47,424 app   : train.py[line:283] INFO Folder 9
+AUC Score (Train): 0.990435
+2019-03-26 14:58:34,222 app   : train.py[line:319] INFO AUC Score (Train): 0.990435
+AUC Score (Test): 0.933541
+2019-03-26 14:58:35,849 app   : train.py[line:322] INFO AUC Score (Test): 0.933541
+0 result p: 0.9166 r: 0.9792 f 0.9468 / 1 result p: 0.6837 r: 0.3356 f 0.4502
+2019-03-26 14:58:35,856 app   : report.py[line:68] INFO 0 result p: 0.9166 r: 0.9792 f 0.9468 / 1 result p: 0.6837 r: 0.3356 f 0.4502
+0 avg result p: 0.9184 r: 0.9807 f 0.9486
+2019-03-26 14:58:35,857 app   : report.py[line:75] INFO 0 avg result p: 0.9184 r: 0.9807 f 0.9486
+1 avg result p: 0.7037 r: 0.3444 f 0.4621
+2019-03-26 14:58:35,857 app   : report.py[line:77] INFO 1 avg result p: 0.7037 r: 0.3444 f 0.4621
+Object saved in: /home/greed/workspace/backup/kesci_bank/resource/model.20190308.pkl
+2019-03-26 14:58:36,182 app   : comm.py[line:114] INFO Object saved in: /home/greed/workspace/backup/kesci_bank/resource/model.20190308.pkl
+Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/model.20190308.pkl
+2019-03-26 14:59:01,442 app   : comm.py[line:126] INFO Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/model.20190308.pkl
+{'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+2019-03-26 14:59:01,443 app   : str_utils.py[line:19] INFO {'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/test_df_data.pkl
+2019-03-26 14:59:01,446 app   : comm.py[line:126] INFO Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/test_df_data.pkl
+
+      ID  age        ...         poutcome_success  poutcome_unknown
+0  25318   51        ...                        0                 1
+1  25319   32        ...                        0                 1
+2  25320   60        ...                        0                 1
+3  25321   32        ...                        0                 0
+4  25322   41        ...                        0                 1
+
+[5 rows x 48 columns]
+2019-03-26 14:59:32,127 app   : train.py[line:190] INFO 
+      ID  age        ...         poutcome_success  poutcome_unknown
+0  25318   51        ...                        0                 1
+1  25319   32        ...                        0                 1
+2  25320   60        ...                        0                 1
+3  25321   32        ...                        0                 0
+4  25322   41        ...                        0                 1
+
+[5 rows x 48 columns]
+Index(['ID', 'age', 'balance', 'day', 'duration', 'default_bool',
+       'housing_bool', 'loan_bool', 'campaign_cleaned', 'previous_cleaned',
+       'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid',
+       'job_management', 'job_retired', 'job_self-employed', 'job_services',
+       'job_student', 'job_technician', 'job_unemployed', 'job_unknown',
+       'marital_divorced', 'marital_married', 'marital_single',
+       'education_primary', 'education_secondary', 'education_tertiary',
+       'education_unknown', 'contact_cellular', 'contact_telephone',
+       'contact_unknown', 'month_apr', 'month_aug', 'month_dec', 'month_feb',
+       'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may',
+       'month_nov', 'month_oct', 'month_sep', 'poutcome_failure',
+       'poutcome_other', 'poutcome_success', 'poutcome_unknown'],
+      dtype='object')
+2019-03-26 14:59:32,127 app   : train.py[line:191] INFO Index(['ID', 'age', 'balance', 'day', 'duration', 'default_bool',
+       'housing_bool', 'loan_bool', 'campaign_cleaned', 'previous_cleaned',
+       'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid',
+       'job_management', 'job_retired', 'job_self-employed', 'job_services',
+       'job_student', 'job_technician', 'job_unemployed', 'job_unknown',
+       'marital_divorced', 'marital_married', 'marital_single',
+       'education_primary', 'education_secondary', 'education_tertiary',
+       'education_unknown', 'contact_cellular', 'contact_telephone',
+       'contact_unknown', 'month_apr', 'month_aug', 'month_dec', 'month_feb',
+       'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may',
+       'month_nov', 'month_oct', 'month_sep', 'poutcome_failure',
+       'poutcome_other', 'poutcome_success', 'poutcome_unknown'],
+      dtype='object')
+RangeIndex(start=0, stop=10852, step=1)
+2019-03-26 14:59:32,128 app   : train.py[line:192] INFO RangeIndex(start=0, stop=10852, step=1)
+
+    age  balance        ...         poutcome_unknown  previous_cleaned
+0   51      174        ...                        1               0.0
+1   32     6059        ...                        1               0.0
+2   60        0        ...                        1               0.0
+3   32       64        ...                        0               5.0
+4   41        0        ...                        1               0.0
+
+[5 rows x 47 columns]
+2019-03-26 14:59:32,164 app   : train.py[line:248] INFO 
+    age  balance        ...         poutcome_unknown  previous_cleaned
+0   51      174        ...                        1               0.0
+1   32     6059        ...                        1               0.0
+2   60        0        ...                        1               0.0
+3   32       64        ...                        0               5.0
+4   41        0        ...                        1               0.0
+
+[5 rows x 47 columns]
+columns: ['age', 'balance', 'campaign_cleaned', 'contact_cellular', 'contact_telephone', 'contact_unknown', 'day', 'default_bool', 'duration', 'education_primary', 'education_secondary', 'education_tertiary', 'education_unknown', 'housing_bool', 'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid', 'job_management', 'job_retired', 'job_self-employed', 'job_services', 'job_student', 'job_technician', 'job_unemployed', 'job_unknown', 'loan_bool', 'marital_divorced', 'marital_married', 'marital_single', 'month_apr', 'month_aug', 'month_dec', 'month_feb', 'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may', 'month_nov', 'month_oct', 'month_sep', 'poutcome_failure', 'poutcome_other', 'poutcome_success', 'poutcome_unknown', 'previous_cleaned']
+2019-03-26 14:59:32,164 app   : train.py[line:249] INFO columns: ['age', 'balance', 'campaign_cleaned', 'contact_cellular', 'contact_telephone', 'contact_unknown', 'day', 'default_bool', 'duration', 'education_primary', 'education_secondary', 'education_tertiary', 'education_unknown', 'housing_bool', 'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid', 'job_management', 'job_retired', 'job_self-employed', 'job_services', 'job_student', 'job_technician', 'job_unemployed', 'job_unknown', 'loan_bool', 'marital_divorced', 'marital_married', 'marital_single', 'month_apr', 'month_aug', 'month_dec', 'month_feb', 'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may', 'month_nov', 'month_oct', 'month_sep', 'poutcome_failure', 'poutcome_other', 'poutcome_success', 'poutcome_unknown', 'previous_cleaned']
+Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/model.20190308.pkl
+2019-03-26 15:01:00,340 app   : comm.py[line:126] INFO Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/model.20190308.pkl
+{'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+2019-03-26 15:01:00,343 app   : str_utils.py[line:19] INFO {'跆拳道': 1, '武+武道+泰拳': 2, '音乐': 3, '艺术': 4, '琴+棋+画+古筝+钢琴+笛+乐器+打击乐': 5, '健身': 6, '美术+美院': 7, '舞蹈+舞+啦啦操': 8, '英语+外': 9, '主持+话筒+语音+口才': 10, '咨询': 11, '教育': 12, '字+书院+书法': 13, '培训+辅导+教辅': 14, '文化': 15, '儿+少年+亲子+幼童+早教+托管': 16, '管理': 17, '体育+足球+溜冰+运动+篮球': 18, '妆': 19, '乐器': 20, '机器人+智能': 21, '驾校': 22}
+Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/test_df_data.pkl
+2019-03-26 15:01:00,346 app   : comm.py[line:126] INFO Loaded file from: /home/greed/workspace/backup/kesci_bank/resource/test_df_data.pkl
+
+      ID  age        ...         poutcome_success  poutcome_unknown
+0  25318   51        ...                        0                 1
+1  25319   32        ...                        0                 1
+2  25320   60        ...                        0                 1
+3  25321   32        ...                        0                 0
+4  25322   41        ...                        0                 1
+
+[5 rows x 48 columns]
+2019-03-26 15:01:01,082 app   : train.py[line:190] INFO 
+      ID  age        ...         poutcome_success  poutcome_unknown
+0  25318   51        ...                        0                 1
+1  25319   32        ...                        0                 1
+2  25320   60        ...                        0                 1
+3  25321   32        ...                        0                 0
+4  25322   41        ...                        0                 1
+
+[5 rows x 48 columns]
+Index(['ID', 'age', 'balance', 'day', 'duration', 'default_bool',
+       'housing_bool', 'loan_bool', 'campaign_cleaned', 'previous_cleaned',
+       'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid',
+       'job_management', 'job_retired', 'job_self-employed', 'job_services',
+       'job_student', 'job_technician', 'job_unemployed', 'job_unknown',
+       'marital_divorced', 'marital_married', 'marital_single',
+       'education_primary', 'education_secondary', 'education_tertiary',
+       'education_unknown', 'contact_cellular', 'contact_telephone',
+       'contact_unknown', 'month_apr', 'month_aug', 'month_dec', 'month_feb',
+       'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may',
+       'month_nov', 'month_oct', 'month_sep', 'poutcome_failure',
+       'poutcome_other', 'poutcome_success', 'poutcome_unknown'],
+      dtype='object')
+2019-03-26 15:01:01,082 app   : train.py[line:191] INFO Index(['ID', 'age', 'balance', 'day', 'duration', 'default_bool',
+       'housing_bool', 'loan_bool', 'campaign_cleaned', 'previous_cleaned',
+       'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid',
+       'job_management', 'job_retired', 'job_self-employed', 'job_services',
+       'job_student', 'job_technician', 'job_unemployed', 'job_unknown',
+       'marital_divorced', 'marital_married', 'marital_single',
+       'education_primary', 'education_secondary', 'education_tertiary',
+       'education_unknown', 'contact_cellular', 'contact_telephone',
+       'contact_unknown', 'month_apr', 'month_aug', 'month_dec', 'month_feb',
+       'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may',
+       'month_nov', 'month_oct', 'month_sep', 'poutcome_failure',
+       'poutcome_other', 'poutcome_success', 'poutcome_unknown'],
+      dtype='object')
+RangeIndex(start=0, stop=10852, step=1)
+2019-03-26 15:01:01,083 app   : train.py[line:192] INFO RangeIndex(start=0, stop=10852, step=1)
+
+    age  balance        ...         poutcome_unknown  previous_cleaned
+0   51      174        ...                        1               0.0
+1   32     6059        ...                        1               0.0
+2   60        0        ...                        1               0.0
+3   32       64        ...                        0               5.0
+4   41        0        ...                        1               0.0
+
+[5 rows x 47 columns]
+2019-03-26 15:01:01,119 app   : train.py[line:248] INFO 
+    age  balance        ...         poutcome_unknown  previous_cleaned
+0   51      174        ...                        1               0.0
+1   32     6059        ...                        1               0.0
+2   60        0        ...                        1               0.0
+3   32       64        ...                        0               5.0
+4   41        0        ...                        1               0.0
+
+[5 rows x 47 columns]
+columns: ['age', 'balance', 'campaign_cleaned', 'contact_cellular', 'contact_telephone', 'contact_unknown', 'day', 'default_bool', 'duration', 'education_primary', 'education_secondary', 'education_tertiary', 'education_unknown', 'housing_bool', 'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid', 'job_management', 'job_retired', 'job_self-employed', 'job_services', 'job_student', 'job_technician', 'job_unemployed', 'job_unknown', 'loan_bool', 'marital_divorced', 'marital_married', 'marital_single', 'month_apr', 'month_aug', 'month_dec', 'month_feb', 'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may', 'month_nov', 'month_oct', 'month_sep', 'poutcome_failure', 'poutcome_other', 'poutcome_success', 'poutcome_unknown', 'previous_cleaned']
+2019-03-26 15:01:01,119 app   : train.py[line:249] INFO columns: ['age', 'balance', 'campaign_cleaned', 'contact_cellular', 'contact_telephone', 'contact_unknown', 'day', 'default_bool', 'duration', 'education_primary', 'education_secondary', 'education_tertiary', 'education_unknown', 'housing_bool', 'job_admin.', 'job_blue-collar', 'job_entrepreneur', 'job_housemaid', 'job_management', 'job_retired', 'job_self-employed', 'job_services', 'job_student', 'job_technician', 'job_unemployed', 'job_unknown', 'loan_bool', 'marital_divorced', 'marital_married', 'marital_single', 'month_apr', 'month_aug', 'month_dec', 'month_feb', 'month_jan', 'month_jul', 'month_jun', 'month_mar', 'month_may', 'month_nov', 'month_oct', 'month_sep', 'poutcome_failure', 'poutcome_other', 'poutcome_success', 'poutcome_unknown', 'previous_cleaned']
